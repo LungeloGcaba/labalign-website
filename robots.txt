@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://labalign.co.za/sitemap.xml
+Host: labalign.co.za
+
+# AEO structured data reference
+Allow: /labalign_aeo.json

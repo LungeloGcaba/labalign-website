@@ -1,0 +1,164 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://labalign.co.za/#organization",
+      "name": "LabAlign Servicing SA",
+      "url": "https://labalign.co.za/",
+      "logo": "https://labalign.co.za/logo.png",
+      "sameAs": [
+        "https://wa.me/27623870958",
+        "https://www.instagram.com/labalign",
+        "https://www.facebook.com/labalign",
+        "https://www.linkedin.com/company/labalign"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+27 62 387 0958",
+          "contactType": "customer support",
+          "email": "info@labalign.co.za",
+          "areaServed": "ZA"
+        }
+      ],
+      "description": "LabAlign Servicing SA provides professional microscope servicing, calibration, maintenance, and laboratory consumables across South Africa.",
+      "knowsAbout": [
+        "microscope servicing",
+        "microscope maintenance",
+        "microscope calibration",
+        "lab consumables",
+        "laboratory equipment repair",
+        "microscope service and repair in South Africa"
+      ]
+    },
+
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://labalign.co.za/#localbusiness",
+      "name": "LabAlign Servicing SA",
+      "image": "https://labalign.co.za/logo.png",
+      "url": "https://labalign.co.za/",
+      "telephone": "+27 62 387 0958",
+      "email": "info@labalign.co.za",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Hurlingham Office Park, 59 Woodlands Ave, Hurlingham",
+        "addressLocality": "Sandton",
+        "addressRegion": "Gauteng",
+        "postalCode": "2196",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -26.0969,
+        "longitude": 28.0305
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "LabAlign Services and Consumables",
+        "itemListElement": [
+          {
+            "@type": "Service",
+            "name": "Microscope Servicing and Repair",
+            "description": "Professional cleaning, inspection, alignment, and maintenance for laboratory microscopes across South Africa."
+          },
+          {
+            "@type": "Service",
+            "name": "Precision Calibration",
+            "description": "Traceable calibration for optical, mechanical, and measurement accuracy."
+          },
+          {
+            "@type": "Service",
+            "name": "Maintenance Plans",
+            "description": "Scheduled service visits, priority support, and consumable management."
+          },
+          {
+            "@type": "Product",
+            "name": "Lab Consumables",
+            "description": "Slides, coverslips, immersion oils, bulbs, and other laboratory essentials."
+          }
+        ]
+      },
+      "potentialAction": [
+        {
+          "@type": "ReserveAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://labalign.co.za/#contact"
+          },
+          "result": {
+            "@type": "Reservation",
+            "reservationStatus": "http://schema.org/ReservationConfirmed"
+          }
+        },
+        {
+          "@type": "SearchAction",
+          "target": "https://labalign.co.za/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://labalign.co.za/#website",
+      "url": "https://labalign.co.za/",
+      "name": "LabAlign Servicing SA",
+      "description": "Microscope servicing, maintenance, and lab consumables in South Africa.",
+      "publisher": {
+        "@id": "https://labalign.co.za/#organization"
+      }
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://labalign.co.za/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I book a service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Click the 'Book a Service' button on the website and fill in your details. We’ll confirm your booking via email or WhatsApp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you service outside Johannesburg?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — we provide microscope servicing and maintenance anywhere in South Africa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer emergency or urgent callouts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, urgent callouts can be requested via the booking form. Our team will respond promptly."
+          }
+        }
+      ]
+    }
+  ]
+}
