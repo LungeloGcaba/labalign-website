@@ -366,6 +366,40 @@ body{
   margin:5px 0;transition:0.3s;border-radius:2px;
 }
 
+.mobile-menu{
+  position:fixed;
+  top:90px;
+  left:0;
+  right:0;
+  background:var(--white);
+  border-radius:0 0 16px 16px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.15);
+  padding:20px;
+  display:none;
+  z-index:999;
+}
+.mobile-menu.show{display:block}
+.mobile-menu a{
+  display:block;
+  padding:14px 20px;
+  color:var(--dark-navy);
+  text-decoration:none;
+  font-weight:600;
+  border-radius:8px;
+  margin-bottom:8px;
+  transition:all 0.2s var(--ease);
+  font-size:16px;
+}
+.mobile-menu a:hover{
+  background:var(--light-bg);
+  color:var(--teal-accent);
+}
+.mobile-menu .btn{
+  width:100%;
+  margin-top:12px;
+  justify-content:center;
+}
+
 /* Hero Section */
 .hero{
   padding:160px 40px 120px;
@@ -1594,6 +1628,7 @@ document.addEventListener('keydown', (e) => {
 
 </body>
 </html>
+
 
 
 
